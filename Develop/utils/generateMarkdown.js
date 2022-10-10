@@ -37,7 +37,7 @@ function generateMarkdown(userInput) {
   ## Questions
   ${userInput.questions}
 
-  :octocat: Find me on GitHub: [${userInput.username}](https://github.com/${userInput.username})<br />
+  Find me on GitHub: [${userInput.username}](https://github.com/${userInput.username})<br />
   <br />
   ✉️ Email me: ${userInput.email}<br /><br />
 `;
