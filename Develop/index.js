@@ -39,6 +39,11 @@ const questions = [
       },
       {
         type: 'input',
+        message: 'Give instructions on testing your project:',
+        name: 'tests',
+      },
+      {
+        type: 'input',
         message: 'Give instructions on how to reach you with additional questions:',
         name: 'questions',
       },
@@ -65,16 +70,17 @@ function writeToFile(fileName, data) {
     });
 }
 
-const writeFileAsync = util.promisify(writeToFile);
 
-// TODO: Create a function to initialize app
+
+// initialize app
 async function init() {
+    const writeFileAsync = util.promisify(writeToFile);
     try {
         const userInput = await inquirer.prompt(questions);
 
-        const markdown = generateMarkdown(userInput);
+        const userReadme = generateMarkdown(userInput);
 
-        await writeFileAsync('userREADME.md', markdown);
+        await writeFileAsync('userREADME.md', userReadme);
 
     } catch (error) {
         console.log(error);

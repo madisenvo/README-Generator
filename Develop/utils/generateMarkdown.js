@@ -37,9 +37,9 @@ function generateMarkdown(userInput) {
   ## Questions
   ${userInput.questions}
 
-  Find me on GitHub: [${userInput.username}](https://github.com/${userInput.username})<br />
-  <br />
-  Email me: ${userInput.email}<br /><br />
+  Find me on GitHub: [${userInput.username}](https://github.com/${userInput.username})
+  
+  Email me: ${userInput.email}
 `;
 };
 
