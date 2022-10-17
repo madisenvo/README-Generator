@@ -5,7 +5,7 @@ function renderLicenseBadge(license) {}
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(userInput) {
   return `
-  <h1>${userInput.title}</h1>
+  # ${userInput.title}
 
   ## Description
   ${userInput.description}

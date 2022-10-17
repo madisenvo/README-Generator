@@ -34,7 +34,7 @@ const questions = [
       },
       {
         type: 'input',
-        message: 'Who contributed to this project?',
+        message: 'Give instructions on how to contribute to this project:',
         name: 'contributing',
       },
       {
@@ -49,12 +49,12 @@ const questions = [
       },
       {
         type: 'input',
-        message: 'Enter your GitHub username:',
+        message: 'What is your GitHub username?',
         name: 'username',
       },
       {
         type: 'input',
-        message: 'Enter your email address:',
+        message: 'What is your email address?',
         name: 'email',
       },
 ];
@@ -66,7 +66,7 @@ function writeToFile(fileName, data) {
           return console.log(err);
         }
       
-        console.log("Success! Your README.md file has been generated")
+        console.log("Your README.md file has been generated")
     });
 }
 
