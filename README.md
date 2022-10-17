@@ -2,23 +2,18 @@
 
 ## Description
   
-This command-line application accepts user input
+This command-line application uses input from the user to generate a professional README.md file.
 
 ## Installation
 
-No installation needed.
+Run the following command to install dependencies:
+
+npm install 
 
 ## Usage
 
-Click headings in nav bar or scroll to view webpage content.
+Run the following command after installation to launch the application:
 
-![header with nav bar](assets/images/screenshot.png)
+node index.js
 
-## Credits
-
-Horiseon codebase provided by Denver University Full Stack Bootcamp.
-
-## Features
-
-Clickable links, image alt attributes, semantic HTML
 
