@@ -26,7 +26,7 @@ function generateMarkdown(userInput) {
   ${userInput.usage}
 
   ## License
-  ![license badge](https://img.shields.io/badge/license-${userInput.license}-lightblue.svg)
+  ![license badge](https://img.shields.io/badge/license-${userInput.license}-orange)
 
   ## Contributing
   ${userInput.contributing}

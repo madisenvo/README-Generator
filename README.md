@@ -1,5 +1,9 @@
 # README-Generator
 
+Click this link to view a walkthrough video:
+
+https://drive.google.com/file/d/1ilDmKt5NPj9JVhqJFunSpDDEpvnBqZ8i/view
+
 ## Description
   
 This command-line application uses input from the user to generate a professional README.md file.
